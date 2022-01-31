@@ -1,7 +1,7 @@
 import classes from "./MainNavigation.module.css";
 import Link from "next/link";
 
-function MainNavigation() {
+const MainNavigation = () => {
   return (
     <header className={classes.header}>
       <div className={classes.logo}>React Meetups</div>
@@ -17,6 +17,6 @@ function MainNavigation() {
       </nav>
     </header>
   );
-}
+};
 
 export default MainNavigation;
